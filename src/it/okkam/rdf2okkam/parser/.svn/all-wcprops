@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/parser
+END
+RdfUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/parser/RdfUtil.java
+END
+VocabConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/parser/VocabConstants.java
+END
+Globalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/parser/Globalizer.java
+END

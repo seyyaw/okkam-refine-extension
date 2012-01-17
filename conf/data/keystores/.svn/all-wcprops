@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/keystores
+END
+okkamadmin.p12
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/keystores/okkamadmin.p12
+END
+okkamadmin.jks
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/keystores/okkamadmin.jks
+END

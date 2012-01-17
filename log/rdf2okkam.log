@@ -1,0 +1,27 @@
+11:33:46,096  INFO ServiceClient:191 - New entity: http://www.okkam.org/ens/id5c582a6b-f839-400b-bba8-bd18338d3d4b
+11:33:46,096  INFO ApplicationControllerTest:97 - New entitys okkam id: http://www.okkam.org/ens/id5c582a6b-f839-400b-bba8-bd18338d3d4b
+11:33:46,097  INFO ApplicationControllerTest:93 - Entity's subject to be created: http://localhost:3333/ROBERTAGIRARDINIGRRRRT51M53L736S
+11:33:46,584  INFO ServiceClient:191 - New entity: http://www.okkam.org/ens/id4b5004f3-f472-403a-9143-fd85bdf8ef9f
+11:33:46,584  INFO ApplicationControllerTest:97 - New entitys okkam id: http://www.okkam.org/ens/id4b5004f3-f472-403a-9143-fd85bdf8ef9f
+11:33:46,584  INFO ApplicationControllerTest:93 - Entity's subject to be created: http://localhost:3333/ANDREAMARTINELLIMRTNDR88M17H612V
+11:33:47,094  INFO ServiceClient:191 - New entity: http://www.okkam.org/ens/id6cee3ec3-3c71-4401-9a5c-ac0177575658
+11:33:47,095  INFO ApplicationControllerTest:97 - New entitys okkam id: http://www.okkam.org/ens/id6cee3ec3-3c71-4401-9a5c-ac0177575658
+11:33:47,095  INFO ApplicationControllerTest:93 - Entity's subject to be created: http://localhost:3333/GIUSEPPESAVIOTTISVTGPP26B26H199G
+11:33:47,613  INFO ServiceClient:191 - New entity: http://www.okkam.org/ens/iddd5a3ccd-3c72-4dc2-ac54-4a00bfc7a8b5
+11:33:47,614  INFO ApplicationControllerTest:97 - New entitys okkam id: http://www.okkam.org/ens/iddd5a3ccd-3c72-4dc2-ac54-4a00bfc7a8b5
+11:33:47,614  INFO ApplicationControllerTest:93 - Entity's subject to be created: http://localhost:3333/ANTONIOGRAZIAGRZNTN67D15A059J
+11:33:48,168  INFO ServiceClient:191 - New entity: http://www.okkam.org/ens/id234e3f89-d36f-4b08-b808-20d48f7a452a
+11:33:48,168  INFO ApplicationControllerTest:97 - New entitys okkam id: http://www.okkam.org/ens/id234e3f89-d36f-4b08-b808-20d48f7a452a
+11:33:48,168  INFO ApplicationControllerTest:93 - Entity's subject to be created: http://localhost:3333/BRUNOMARZARIMRZBRN53E03M113C
+11:33:48,653  INFO ServiceClient:191 - New entity: http://www.okkam.org/ens/id9c2474e1-6587-4680-9e67-54bfd2358caf
+11:33:48,654  INFO ApplicationControllerTest:97 - New entitys okkam id: http://www.okkam.org/ens/id9c2474e1-6587-4680-9e67-54bfd2358caf
+11:33:48,654  INFO ApplicationControllerTest:93 - Entity's subject to be created: http://localhost:3333/DIRCEBAU'BAUDRC24B52D651T
+11:33:49,223  INFO ServiceClient:191 - New entity: http://www.okkam.org/ens/id98e5cfb5-0ea6-4dfb-b1a4-e7ece95558a2
+11:33:49,224  INFO ApplicationControllerTest:97 - New entitys okkam id: http://www.okkam.org/ens/id98e5cfb5-0ea6-4dfb-b1a4-e7ece95558a2
+11:33:49,224  INFO ApplicationControllerTest:99 - Number of subjects: 601, entities created: 601
+14:30:08,349  INFO ServiceClient:61 - Starting service client.
+14:30:08,691  INFO ApplicationControllerTest:85 - ----------testCreateEntities--------------
+14:30:08,700  INFO ApplicationControllerTest:93 - Entity's subject to be created: http://localhost:3333/DIRCEBAU'BAUDRC24B52D651T
+14:30:21,055  INFO ServiceClient:191 - New entity: http://www.okkam.org/ens/id861423cc-6392-422b-b2ee-9ef5f5314343
+14:30:21,062  INFO ApplicationControllerTest:97 - New entitys okkam id: http://www.okkam.org/ens/id861423cc-6392-422b-b2ee-9ef5f5314343
+14:30:21,062  INFO ApplicationControllerTest:99 - Number of subjects: 1, entities created: 1

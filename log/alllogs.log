@@ -1,0 +1,2949 @@
+INFO main refine_server - Starting Server bound to '127.0.0.1:3333'
+INFO main org.mortbay.log - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+INFO main refine_server - Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+INFO main org.mortbay.log - jetty-6.1.22
+INFO main org.mortbay.log - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+INFO main org.mortbay.log - Started SocketConnector@127.0.0.1:3333
+INFO main refine - Starting Google Refine 2.5 [TRUNK]...
+INFO main FileProjectManager - Using workspace directory: /home/seidm/.local/share/google/refine
+INFO main FileProjectManager - Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+INFO main butterfly - Starting butterfly ...
+INFO main butterfly - Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+INFO main butterfly - > process properties
+INFO main butterfly - Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+INFO main butterfly - < process properties
+INFO main butterfly - > load modules
+INFO main butterfly - < load modules
+INFO main butterfly - > create modules
+INFO main butterfly - < create modules
+INFO main butterfly - > load module wirings
+INFO main butterfly - Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+INFO main butterfly - < load module wirings
+INFO main butterfly - > wire modules
+INFO main butterfly - mounting modules
+INFO main butterfly - No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+INFO main butterfly - No mount point defined for module 'jython', mounting to '/extension/jython'
+INFO main butterfly - No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+INFO main butterfly - No mount point defined for module 'freebase', mounting to '/extension/freebase'
+INFO main butterfly - No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+INFO main butterfly - < wire modules
+INFO main butterfly - > configure modules
+INFO main velocity - Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+INFO main velocity - Velocimacro : added #makeAList(  list ) : source = macros.vm
+INFO main velocity - Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+INFO main velocity - Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+INFO main velocity - Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+INFO main butterfly - < configure modules
+INFO main butterfly - > initialize modules
+INFO main butterfly - < initialize modules
+INFO pool-1-thread-2 butterfly - GET / [main]
+INFO pool-1-thread-2 butterfly - GET /wirings.js [main]
+INFO pool-1-thread-3 butterfly - GET /externals/jquery-1.4.2.min.js [main]
+INFO pool-1-thread-2 butterfly - GET /externals/CFInstall.min.js [main]
+INFO pool-1-thread-5 butterfly - GET /externals/jquery.eventstack-0.3.js [main]
+INFO pool-1-thread-4 butterfly - GET /externals/jquery.cookie.js [main]
+INFO pool-1-thread-6 butterfly - GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+INFO pool-1-thread-7 butterfly - GET /externals/date.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/chrome-frame.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/util/misc.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/util/url.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/util/string.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/util/menu.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/util/ajax.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/util/dialog.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/util/dom.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/util/encoding.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/index.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index/create-project-ui.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/index/open-project-ui.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/index/default-importing-controller/controller.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/index/import-project-ui.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/index/default-importing-sources/sources.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/index/parser-interfaces/preview-table.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+INFO pool-1-thread-7 butterfly - GET /extension/ENSUploader/scripts/index.js [main]
+INFO pool-1-thread-5 butterfly - GET /extension/ENSUploader/scripts/dialog.js [main]
+INFO pool-1-thread-6 butterfly - GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+INFO pool-1-thread-2 butterfly - GET /styles/jquery-ui-overrides.less [main]
+INFO pool-1-thread-4 butterfly - GET /styles/common.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/pure.css [main]
+INFO pool-1-thread-7 butterfly - GET /styles/util/dialog.less [main]
+INFO pool-1-thread-5 butterfly - GET /styles/util/encoding.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/index.less [main]
+INFO pool-1-thread-6 butterfly - GET /styles/index/create-project-ui.less [main]
+INFO pool-1-thread-5 butterfly - GET /styles/index/open-project-ui.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/index/import-project-ui.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/index/default-importing-file-selection-panel.less [main]
+INFO pool-1-thread-7 butterfly - GET /styles/index/default-importing-controller.less [main]
+INFO pool-1-thread-6 butterfly - GET /styles/index/default-importing-parsing-panel.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/index/default-importing-sources.less [main]
+INFO pool-1-thread-7 butterfly - GET /styles/views/data-table-view.less [main]
+INFO pool-1-thread-5 butterfly - GET /styles/index/fixed-width-parser-ui.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/index/xml-parser-ui.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/index/json-parser-ui.less [main]
+INFO pool-1-thread-6 butterfly - GET /images/logo-googlerefine-30.png [main]
+INFO pool-1-thread-3 butterfly - GET /images/logo-gem-40.png [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index/create-project-ui-source-selection.html [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/index/create-project-progress-panel.html [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/index/create-project-error-panel.html [main]
+INFO pool-1-thread-7 refine - POST /command/core/get-importing-configuration
+INFO pool-1-thread-6 butterfly - GET /scripts/index/open-project-ui.html [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+INFO pool-1-thread-4 refine - GET /command/core/get-all-project-metadata
+INFO pool-1-thread-7 butterfly - GET /scripts/index/import-project-ui.html [main]
+INFO pool-1-thread-6 butterfly - GET /images/close.png [main]
+INFO pool-1-thread-3 refine - GET /command/core/get-version
+INFO pool-1-thread-5 butterfly - GET /extension/ENSUploader/html/login.html [main]
+INFO pool-1-thread-2 butterfly - GET /images/favicon.png [main]
+INFO pool-1-thread-4 refine - POST /command/ENSUploader/uploadtoENS
+INFO pool-1-thread-4 project - Loaded project 2090381313988 from disk in 0 sec(s)
+INFO pool-1-thread-4 it.okkam.rdf2okkam.ens.client.ServiceClient - Starting service client.
+INFO pool-1-thread-4 it.okkam.rdf2okkam.ens.client.ServiceClient - New entity: http://www.okkam.org/ens/id9948a170-e7fb-495b-9909-ca07cd4e0353
+INFO main refine_server - Starting Server bound to '127.0.0.1:3333'
+INFO main org.mortbay.log - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+INFO main refine_server - Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+INFO main org.mortbay.log - jetty-6.1.22
+INFO main org.mortbay.log - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+WARN main org.mortbay.log - failed SocketConnector@127.0.0.1:3333: java.net.BindException: Address already in use
+WARN main org.mortbay.log - failed RefineServer@179dce4: java.net.BindException: Address already in use
+INFO Shutdown org.mortbay.log - Shutdown hook executing
+INFO Shutdown org.mortbay.log - Shutdown hook complete
+INFO Shutdown org.mortbay.log - Shutdown hook executing
+INFO Thread-5 org.mortbay.log - Graceful shutdown SocketConnector@127.0.0.1:3333
+INFO Thread-5 org.mortbay.log - Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@b587e9{/,/home/seidm/workspace/grefine-all/main/webapp}
+INFO Thread-5 FileProjectManager - Saved workspace
+INFO Thread-5 butterfly - Stopping Butterfly...
+INFO Thread-5 butterfly - done.
+INFO Shutdown org.mortbay.log - Shutdown hook complete
+INFO main refine_server - Starting Server bound to '127.0.0.1:3333'
+INFO main org.mortbay.log - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+INFO main refine_server - Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+INFO main org.mortbay.log - jetty-6.1.22
+INFO main org.mortbay.log - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+INFO main org.mortbay.log - Started SocketConnector@127.0.0.1:3333
+INFO main refine - Starting Google Refine 2.5 [TRUNK]...
+INFO main FileProjectManager - Using workspace directory: /home/seidm/.local/share/google/refine
+INFO main FileProjectManager - Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+INFO main butterfly - Starting butterfly ...
+INFO main butterfly - Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+INFO main butterfly - > process properties
+INFO main butterfly - Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+INFO main butterfly - < process properties
+INFO main butterfly - > load modules
+INFO main butterfly - < load modules
+INFO main butterfly - > create modules
+INFO main butterfly - < create modules
+INFO main butterfly - > load module wirings
+INFO main butterfly - Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+INFO main butterfly - < load module wirings
+INFO main butterfly - > wire modules
+INFO main butterfly - mounting modules
+INFO main butterfly - No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+INFO main butterfly - No mount point defined for module 'jython', mounting to '/extension/jython'
+INFO main butterfly - No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+INFO main butterfly - No mount point defined for module 'freebase', mounting to '/extension/freebase'
+INFO main butterfly - No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+INFO main butterfly - < wire modules
+INFO main butterfly - > configure modules
+INFO main velocity - Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+INFO main velocity - Velocimacro : added #makeAList(  list ) : source = macros.vm
+INFO main velocity - Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+INFO main velocity - Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+INFO main velocity - Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+INFO main butterfly - < configure modules
+INFO main butterfly - > initialize modules
+INFO main butterfly - < initialize modules
+INFO pool-1-thread-2 butterfly - GET / [main]
+INFO pool-1-thread-2 butterfly - GET /wirings.js [main]
+INFO pool-1-thread-2 butterfly - GET /externals/CFInstall.min.js [main]
+INFO pool-1-thread-3 butterfly - GET /externals/jquery-1.4.2.min.js [main]
+INFO pool-1-thread-4 butterfly - GET /externals/jquery.cookie.js [main]
+INFO pool-1-thread-5 butterfly - GET /externals/jquery.eventstack-0.3.js [main]
+INFO pool-1-thread-6 butterfly - GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+INFO pool-1-thread-7 butterfly - GET /externals/date.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/chrome-frame.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/util/misc.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/util/url.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/util/string.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/util/ajax.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/util/menu.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/util/dialog.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/util/encoding.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/util/dom.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/index/create-project-ui.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/index/open-project-ui.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/index/import-project-ui.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index/default-importing-controller/controller.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/index/default-importing-sources/sources.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/index/parser-interfaces/preview-table.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+INFO pool-1-thread-2 butterfly - GET /extension/ENSUploader/scripts/index.js [main]
+INFO pool-1-thread-7 butterfly - GET /extension/ENSUploader/scripts/dialog.js [main]
+INFO pool-1-thread-4 butterfly - GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+INFO pool-1-thread-5 butterfly - GET /styles/jquery-ui-overrides.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/pure.css [main]
+INFO pool-1-thread-6 butterfly - GET /styles/common.less [main]
+INFO pool-1-thread-7 butterfly - GET /styles/util/dialog.less [main]
+INFO pool-1-thread-4 butterfly - GET /styles/util/encoding.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/index.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/index/create-project-ui.less [main]
+INFO pool-1-thread-4 butterfly - GET /styles/index/open-project-ui.less [main]
+INFO pool-1-thread-5 butterfly - GET /styles/index/default-importing-controller.less [main]
+INFO pool-1-thread-7 butterfly - GET /styles/index/default-importing-file-selection-panel.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/index/import-project-ui.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/index/default-importing-parsing-panel.less [main]
+INFO pool-1-thread-4 butterfly - GET /styles/views/data-table-view.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/index/default-importing-sources.less [main]
+INFO pool-1-thread-5 butterfly - GET /styles/index/fixed-width-parser-ui.less [main]
+INFO pool-1-thread-7 butterfly - GET /styles/index/xml-parser-ui.less [main]
+INFO pool-1-thread-6 butterfly - GET /styles/index/json-parser-ui.less [main]
+INFO pool-1-thread-3 butterfly - GET /images/logo-googlerefine-30.png [main]
+INFO pool-1-thread-2 butterfly - GET /images/logo-gem-40.png [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index/create-project-ui-source-selection.html [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/index/create-project-progress-panel.html [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/index/create-project-error-panel.html [main]
+INFO pool-1-thread-3 refine - POST /command/core/get-importing-configuration
+INFO pool-1-thread-4 butterfly - GET /scripts/index/open-project-ui.html [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+INFO pool-1-thread-2 refine - GET /command/core/get-all-project-metadata
+INFO pool-1-thread-3 butterfly - GET /scripts/index/import-project-ui.html [main]
+INFO pool-1-thread-4 butterfly - GET /images/close.png [main]
+INFO pool-1-thread-6 refine - GET /command/core/get-version
+INFO pool-1-thread-5 butterfly - GET /extension/ENSUploader/html/login.html [main]
+INFO pool-1-thread-7 butterfly - GET /images/favicon.png [main]
+INFO pool-1-thread-2 butterfly - GET /project [main]
+INFO pool-1-thread-3 butterfly - GET /wirings.js [main]
+INFO pool-1-thread-4 butterfly - GET /externals/jquery-1.4.2.min.js [main]
+INFO pool-1-thread-6 butterfly - GET /externals/jquery.cookie.js [main]
+INFO pool-1-thread-5 butterfly - GET /externals/jquery.eventstack-0.3.js [main]
+INFO pool-1-thread-7 butterfly - GET /externals/suggest/suggest-1.2.1.min.js [main]
+INFO pool-1-thread-2 butterfly - GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+INFO pool-1-thread-6 butterfly - GET /externals/imgareaselect/jquery.imgareaselect.js [main]
+INFO pool-1-thread-3 butterfly - GET /externals/CFInstall.min.js [main]
+INFO pool-1-thread-5 butterfly - GET /externals/date.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/util/misc.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/project.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/chrome-frame.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/util/url.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/util/string.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/util/ajax.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/util/menu.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/util/dialog.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/util/encoding.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/util/dom.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/widgets/histogram-widget.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/util/custom-suggest.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/project/browsing-engine.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/project/history-panel.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/project/process-panel.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/widgets/slider-widget.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/project/extension-bar.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/project/summary-bar.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/project/exporters.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/project/scripting.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/facets/list-facet.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/facets/range-facet.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/facets/timerange-facet.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/facets/scatterplot-facet.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/facets/text-search-facet.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/views/data-table/data-table-view.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/views/data-table/cell-ui.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/views/data-table/column-header-ui.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/views/data-table/menu-facets.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/views/data-table/menu-edit-cells.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/views/data-table/menu-edit-column.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/views/data-table/menu-reconcile.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/reconciliation/recon-manager.js [main]
+INFO pool-1-thread-3 butterfly - GET /scripts/reconciliation/recon-dialog.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/reconciliation/freebase-query-panel.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/reconciliation/standard-service-panel.js [main]
+INFO pool-1-thread-7 butterfly - GET /scripts/dialogs/expression-preview-dialog.js [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/dialogs/clustering-dialog.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/dialogs/scatterplot-dialog.js [main]
+INFO pool-1-thread-5 butterfly - GET /scripts/dialogs/templating-exporter-dialog.js [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/dialogs/column-reordering-dialog.js [main]
+INFO pool-1-thread-6 butterfly - GET /scripts/dialogs/custom-tabular-exporter-dialog.js [main]
+INFO pool-1-thread-4 butterfly - GET /extension/rdf-extension/scripts/rdf-data-table-view.js [main]
+INFO pool-1-thread-3 butterfly - GET /extension/rdf-extension/scripts/menu-bar-extensions.js [main]
+INFO pool-1-thread-2 butterfly - GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-link.js [main]
+INFO pool-1-thread-5 butterfly - GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-node.js [main]
+INFO pool-1-thread-7 butterfly - GET /extension/rdf-extension/scripts/rdf-schema-alignment.js [main]
+INFO pool-1-thread-6 butterfly - GET /extension/rdf-extension/scripts/suggestterm.suggest.js [main]
+INFO pool-1-thread-7 rdf_extension - recieving request for scripts/rdf-schema-alignment.js
+INFO pool-1-thread-4 rdf_extension - recieving request for scripts/rdf-data-table-view.js
+INFO pool-1-thread-4 butterfly - GET /extension/rdf-extension/scripts/rdf-schema-manage-vocabs-widget.js [main]
+INFO pool-1-thread-7 butterfly - GET /extension/rdf-extension/scripts/rdf-schema-vocabulary-manager.js [main]
+INFO pool-1-thread-5 rdf_extension - recieving request for scripts/rdf-schema-alignment-ui-node.js
+INFO pool-1-thread-5 butterfly - GET /extension/rdf-extension/scripts/rdf-schema-new-prefix-widget.js [main]
+INFO pool-1-thread-2 rdf_extension - recieving request for scripts/rdf-schema-alignment-ui-link.js
+INFO pool-1-thread-2 butterfly - GET /extension/rdf-extension/scripts/externals/jquery.form.js [main]
+INFO pool-1-thread-6 rdf_extension - recieving request for scripts/suggestterm.suggest.js
+INFO pool-1-thread-6 butterfly - GET /extension/rdf-extension/scripts/sindice/sindice-dialog.js [main]
+INFO pool-1-thread-3 rdf_extension - recieving request for scripts/menu-bar-extensions.js
+INFO pool-1-thread-5 rdf_extension - recieving request for scripts/rdf-schema-new-prefix-widget.js
+INFO pool-1-thread-3 butterfly - GET /extension/ENSUploader/scripts/project-injection.js [main]
+INFO pool-1-thread-5 butterfly - GET /extension/freebase/scripts/extension.js [main]
+INFO pool-1-thread-4 rdf_extension - recieving request for scripts/rdf-schema-manage-vocabs-widget.js
+INFO pool-1-thread-4 butterfly - GET /extension/freebase/scripts/util/sign.js [main]
+INFO pool-1-thread-6 rdf_extension - recieving request for scripts/sindice/sindice-dialog.js
+INFO pool-1-thread-6 butterfly - GET /extension/freebase/scripts/util/freebase.js [main]
+INFO pool-1-thread-7 rdf_extension - recieving request for scripts/rdf-schema-vocabulary-manager.js
+INFO pool-1-thread-7 butterfly - GET /extension/freebase/scripts/dialogs/extend-data-preview-dialog.js [main]
+INFO pool-1-thread-2 rdf_extension - recieving request for scripts/externals/jquery.form.js
+INFO pool-1-thread-2 butterfly - GET /extension/freebase/scripts/dialogs/schema-alignment/dialog.js [main]
+INFO pool-1-thread-3 butterfly - GET /extension/freebase/scripts/dialogs/freebase-loading-dialog.js [main]
+INFO pool-1-thread-4 butterfly - GET /extension/freebase/scripts/dialogs/schema-alignment/ui-node.js [main]
+INFO pool-1-thread-5 butterfly - GET /extension/ckan-storage-extension/scripts/ckan-storage.js [main]
+INFO pool-1-thread-7 butterfly - GET /externals/imgareaselect/css/imgareaselect-default.css [main]
+INFO pool-1-thread-6 butterfly - GET /externals/suggest/css/suggest-1.2.1.min.css [main]
+INFO pool-1-thread-2 butterfly - GET /extension/freebase/scripts/dialogs/schema-alignment/ui-link.js [main]
+INFO pool-1-thread-3 butterfly - GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+INFO pool-1-thread-6 butterfly - GET /styles/jquery-ui-overrides.less [main]
+INFO pool-1-thread-4 butterfly - GET /styles/common.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/pure.css [main]
+INFO pool-1-thread-3 butterfly - GET /styles/util/dialog.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/util/menu.less [main]
+INFO pool-1-thread-7 butterfly - GET /styles/util/custom-suggest.less [main]
+INFO pool-1-thread-6 butterfly - GET /styles/util/encoding.less [main]
+INFO pool-1-thread-5 butterfly - GET /styles/project/sidebar.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/project.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/project/facets.less [main]
+INFO pool-1-thread-7 butterfly - GET /styles/project/process.less [main]
+INFO pool-1-thread-4 butterfly - GET /styles/widgets/histogram-widget.less [main]
+INFO pool-1-thread-7 butterfly - GET /styles/widgets/slider-widget.less [main]
+INFO pool-1-thread-5 butterfly - GET /styles/views/data-table-view.less [main]
+INFO pool-1-thread-6 butterfly - GET /styles/dialogs/clustering-dialog.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/dialogs/expression-preview-dialog.less [main]
+INFO pool-1-thread-4 butterfly - GET /styles/dialogs/scatterplot-dialog.less [main]
+INFO pool-1-thread-3 butterfly - GET /styles/dialogs/custom-tabular-exporter-dialog.less [main]
+INFO pool-1-thread-2 butterfly - GET /styles/dialogs/column-reordering-dialog.less [main]
+INFO pool-1-thread-6 butterfly - GET /styles/reconciliation/recon-dialog.less [main]
+INFO pool-1-thread-4 butterfly - GET /styles/reconciliation/standard-service-panel.less [main]
+INFO pool-1-thread-7 butterfly - GET /extension/rdf-extension/styles/rdf-schema-alignment-dialog.css [main]
+INFO pool-1-thread-2 butterfly - GET /extension/rdf-extension/styles/rdf-reconcile-service.css [main]
+INFO pool-1-thread-5 butterfly - GET /extension/rdf-extension/styles/sindice/recon-dialog.css [main]
+INFO pool-1-thread-6 butterfly - GET /extension/ENSUploader/styles/project-injection.less [main]
+INFO pool-1-thread-3 butterfly - GET /extension/ENSUploader/styles/index.css [main]
+INFO pool-1-thread-4 butterfly - GET /extension/freebase/styles/dialogs/freebase-loading-dialog.less [main]
+INFO pool-1-thread-7 rdf_extension - recieving request for styles/rdf-schema-alignment-dialog.css
+INFO pool-1-thread-2 rdf_extension - recieving request for styles/rdf-reconcile-service.css
+INFO pool-1-thread-5 rdf_extension - recieving request for styles/sindice/recon-dialog.css
+INFO pool-1-thread-7 butterfly - GET /extension/freebase/styles/dialogs/extend-data-preview-dialog.less [main]
+INFO pool-1-thread-3 butterfly - GET /extension/freebase/styles/dialogs/schema-alignment-dialog.less [main]
+INFO pool-1-thread-7 butterfly - GET /extension/ckan-storage-extension/styles/style.css [main]
+INFO pool-1-thread-4 refine - GET /command/core/get-preference
+INFO pool-1-thread-2 butterfly - GET /images/logo-googlerefine-30.png [main]
+INFO pool-1-thread-5 butterfly - GET /images/large-spinner.gif [main]
+INFO pool-1-thread-6 refine - GET /command/core/get-project-metadata
+INFO pool-1-thread-3 refine - POST /command/rdf-extension/initializeServices
+INFO pool-1-thread-6 project - Loaded project 2090381313988 from disk in 1 sec(s)
+INFO pool-1-thread-7 refine - GET /command/core/get-models
+INFO pool-1-thread-4 butterfly - GET /images/down-arrow.png [main]
+INFO pool-1-thread-2 butterfly - GET /images/logo-gem-40.png [main]
+INFO pool-1-thread-5 butterfly - GET /images/small-spinner.gif [main]
+INFO pool-1-thread-6 refine - GET /command/core/get-history
+INFO pool-1-thread-7 refine - POST /command/core/get-rows
+INFO pool-1-thread-4 butterfly - GET /scripts/project/history-panel.html [main]
+INFO pool-1-thread-2 butterfly - GET /scripts/views/data-table/column-header.html [main]
+INFO pool-1-thread-5 butterfly - GET /images/menu-dropdown.png [main]
+INFO pool-1-thread-3 butterfly - GET /images/star-flag-map.png [main]
+INFO pool-1-thread-6 butterfly - GET /images/edit-map.png [main]
+INFO pool-1-thread-7 butterfly - GET /images/checks-map.png [main]
+INFO pool-1-thread-4 butterfly - GET /scripts/project/history-entry.html [main]
+INFO pool-1-thread-2 butterfly - GET /images/favicon.png [main]
+INFO pool-1-thread-5 refine - GET /command/core/get-history
+INFO pool-1-thread-6 butterfly - GET /images/right-arrow.png [main]
+INFO pool-1-thread-3 butterfly - GET /images/close-map.png [main]
+INFO pool-1-thread-7 refine - GET /command/core/get-history
+INFO pool-1-thread-4 refine - POST /command/core/get-rows
+INFO pool-1-thread-2 refine - POST /command/core/compute-facets
+INFO pool-1-thread-5 refine - GET /command/core/get-history
+INFO pool-1-thread-6 refine - POST /command/core/get-rows
+INFO pool-1-thread-3 refine - POST /command/core/compute-facets
+INFO pool-1-thread-7 refine - GET /command/core/get-history
+INFO pool-1-thread-4 refine - POST /command/core/get-rows
+INFO pool-1-thread-2 refine - POST /command/core/compute-facets
+INFO pool-1-thread-5 butterfly - GET /extension/ENSUploader/html/uploader-dialog.html [main]
+INFO pool-1-thread-6 refine - POST /command/ENSUploader/uploadtoENS
+INFO pool-1-thread-6 it.okkam.rdf2okkam.ens.client.ServiceClient - Starting service client.
+INFO pool-1-thread-6 it.okkam.rdf2okkam.ens.client.ServiceClient - New entity: http://www.okkam.org/ens/ida06b0c3f-0118-4fcc-8c6c-f5f4047cc0b9
+INFO Thread-5 org.mortbay.log - Graceful shutdown SocketConnector@127.0.0.1:3333
+INFO Thread-5 org.mortbay.log - Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@fd4bba{/,/home/seidm/workspace/grefine-all/main/webapp}
+INFO Shutdown org.mortbay.log - Shutdown hook executing
+INFO Thread-5 FileProjectManager - Saved workspace
+INFO Thread-5 butterfly - Stopping Butterfly...
+INFO Thread-5 butterfly - done.
+INFO Shutdown org.mortbay.log - Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/date.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/dialog.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+GET /project [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/suggest/suggest-1.2.1.min.js [main]
+GET /externals/imgareaselect/jquery.imgareaselect.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/date.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/project.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/custom-suggest.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/widgets/histogram-widget.js [main]
+GET /scripts/widgets/slider-widget.js [main]
+GET /scripts/project/browsing-engine.js [main]
+GET /scripts/project/history-panel.js [main]
+GET /scripts/project/process-panel.js [main]
+GET /scripts/project/summary-bar.js [main]
+GET /scripts/project/exporters.js [main]
+GET /scripts/project/extension-bar.js [main]
+GET /scripts/project/scripting.js [main]
+GET /scripts/facets/list-facet.js [main]
+GET /scripts/facets/range-facet.js [main]
+GET /scripts/facets/timerange-facet.js [main]
+GET /scripts/facets/scatterplot-facet.js [main]
+GET /scripts/facets/text-search-facet.js [main]
+GET /scripts/views/data-table/data-table-view.js [main]
+GET /scripts/views/data-table/cell-ui.js [main]
+GET /scripts/views/data-table/column-header-ui.js [main]
+GET /scripts/views/data-table/menu-facets.js [main]
+GET /scripts/views/data-table/menu-edit-cells.js [main]
+GET /scripts/views/data-table/menu-reconcile.js [main]
+GET /scripts/views/data-table/menu-edit-column.js [main]
+GET /scripts/reconciliation/recon-manager.js [main]
+GET /scripts/reconciliation/recon-dialog.js [main]
+GET /scripts/reconciliation/freebase-query-panel.js [main]
+GET /scripts/reconciliation/standard-service-panel.js [main]
+GET /scripts/dialogs/clustering-dialog.js [main]
+GET /scripts/dialogs/scatterplot-dialog.js [main]
+GET /scripts/dialogs/expression-preview-dialog.js [main]
+GET /scripts/dialogs/templating-exporter-dialog.js [main]
+GET /scripts/dialogs/column-reordering-dialog.js [main]
+GET /scripts/dialogs/custom-tabular-exporter-dialog.js [main]
+GET /extension/rdf-extension/scripts/rdf-data-table-view.js [main]
+GET /extension/rdf-extension/scripts/menu-bar-extensions.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-node.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-link.js [main]
+GET /extension/rdf-extension/scripts/suggestterm.suggest.js [main]
+recieving request for scripts/rdf-schema-alignment.js
+recieving request for scripts/menu-bar-extensions.js
+recieving request for scripts/rdf-data-table-view.js
+recieving request for scripts/rdf-schema-alignment-ui-link.js
+recieving request for scripts/rdf-schema-alignment-ui-node.js
+recieving request for scripts/suggestterm.suggest.js
+GET /extension/rdf-extension/scripts/rdf-schema-manage-vocabs-widget.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-vocabulary-manager.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-new-prefix-widget.js [main]
+GET /extension/rdf-extension/scripts/externals/jquery.form.js [main]
+GET /extension/rdf-extension/scripts/sindice/sindice-dialog.js [main]
+GET /extension/ENSUploader/scripts/project-injection.js [main]
+recieving request for scripts/sindice/sindice-dialog.js
+GET /extension/freebase/scripts/extension.js [main]
+recieving request for scripts/rdf-schema-manage-vocabs-widget.js
+recieving request for scripts/rdf-schema-new-prefix-widget.js
+recieving request for scripts/externals/jquery.form.js
+recieving request for scripts/rdf-schema-vocabulary-manager.js
+GET /extension/freebase/scripts/util/sign.js [main]
+GET /extension/freebase/scripts/util/freebase.js [main]
+GET /extension/freebase/scripts/dialogs/freebase-loading-dialog.js [main]
+GET /extension/freebase/scripts/dialogs/extend-data-preview-dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-node.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-link.js [main]
+GET /extension/ckan-storage-extension/scripts/ckan-storage.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /externals/suggest/css/suggest-1.2.1.min.css [main]
+GET /externals/imgareaselect/css/imgareaselect-default.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/menu.less [main]
+GET /styles/util/custom-suggest.less [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/project.less [main]
+GET /styles/project/sidebar.less [main]
+GET /styles/project/facets.less [main]
+GET /styles/project/process.less [main]
+GET /styles/widgets/slider-widget.less [main]
+GET /styles/widgets/histogram-widget.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/dialogs/clustering-dialog.less [main]
+GET /styles/dialogs/scatterplot-dialog.less [main]
+GET /styles/dialogs/expression-preview-dialog.less [main]
+GET /styles/dialogs/column-reordering-dialog.less [main]
+GET /styles/dialogs/custom-tabular-exporter-dialog.less [main]
+GET /styles/reconciliation/recon-dialog.less [main]
+GET /styles/reconciliation/standard-service-panel.less [main]
+GET /extension/rdf-extension/styles/rdf-schema-alignment-dialog.css [main]
+GET /extension/rdf-extension/styles/rdf-reconcile-service.css [main]
+GET /extension/rdf-extension/styles/sindice/recon-dialog.css [main]
+GET /extension/ENSUploader/styles/project-injection.less [main]
+GET /extension/ENSUploader/styles/index.css [main]
+GET /extension/freebase/styles/dialogs/freebase-loading-dialog.less [main]
+recieving request for styles/rdf-reconcile-service.css
+GET /extension/freebase/styles/dialogs/schema-alignment-dialog.less [main]
+recieving request for styles/rdf-schema-alignment-dialog.css
+GET /extension/freebase/styles/dialogs/extend-data-preview-dialog.less [main]
+GET /extension/ckan-storage-extension/styles/style.css [main]
+recieving request for styles/sindice/recon-dialog.css
+GET /command/core/get-preference
+GET /images/logo-googlerefine-30.png [main]
+GET /images/large-spinner.gif [main]
+GET /command/core/get-project-metadata
+POST /command/rdf-extension/initializeServices
+GET /images/favicon.png [main]
+Loaded project 2090381313988 from disk in 1 sec(s)
+GET /command/core/get-models
+GET /images/down-arrow.png [main]
+GET /images/logo-gem-40.png [main]
+GET /images/small-spinner.gif [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+GET /scripts/project/history-panel.html [main]
+GET /scripts/project/history-entry.html [main]
+GET /scripts/views/data-table/column-header.html [main]
+GET /images/menu-dropdown.png [main]
+GET /images/star-flag-map.png [main]
+GET /images/edit-map.png [main]
+GET /images/checks-map.png [main]
+GET /command/core/get-history
+GET /images/right-arrow.png [main]
+GET /images/close-map.png [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /extension/ENSUploader/html/uploader-dialog.html [main]
+POST /command/ENSUploader/uploadtoENS
+Starting service client.
+New entity: http://www.okkam.org/ens/id3aebc267-3f0f-479e-890d-29c2a9898b70
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+POST /command/ENSUploader/uploadtoENS
+Starting service client.
+New entity: http://www.okkam.org/ens/id8cc762fc-06e0-4ec6-b67a-2d7a2f6b143a
+New entity: http://www.okkam.org/ens/id7b1edadc-edf8-4aba-90c0-447b1726239d
+New entity: http://www.okkam.org/ens/idd5c9aad8-22e6-4435-9700-cefc1103c514
+Shutdown hook executing
+Graceful shutdown SocketConnector@127.0.0.1:3333
+Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@771eeb{/,/home/seidm/workspace/grefine-all/main/webapp}
+Saved workspace
+Stopping Butterfly...
+done.
+Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/date.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+GET /project [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/suggest/suggest-1.2.1.min.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/imgareaselect/jquery.imgareaselect.js [main]
+GET /externals/date.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/project.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/custom-suggest.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/widgets/histogram-widget.js [main]
+GET /scripts/widgets/slider-widget.js [main]
+GET /scripts/project/browsing-engine.js [main]
+GET /scripts/project/history-panel.js [main]
+GET /scripts/project/process-panel.js [main]
+GET /scripts/project/extension-bar.js [main]
+GET /scripts/project/summary-bar.js [main]
+GET /scripts/project/exporters.js [main]
+GET /scripts/project/scripting.js [main]
+GET /scripts/facets/list-facet.js [main]
+GET /scripts/facets/range-facet.js [main]
+GET /scripts/facets/scatterplot-facet.js [main]
+GET /scripts/facets/text-search-facet.js [main]
+GET /scripts/facets/timerange-facet.js [main]
+GET /scripts/views/data-table/data-table-view.js [main]
+GET /scripts/views/data-table/cell-ui.js [main]
+GET /scripts/views/data-table/column-header-ui.js [main]
+GET /scripts/views/data-table/menu-edit-column.js [main]
+GET /scripts/views/data-table/menu-edit-cells.js [main]
+GET /scripts/views/data-table/menu-facets.js [main]
+GET /scripts/views/data-table/menu-reconcile.js [main]
+GET /scripts/reconciliation/recon-manager.js [main]
+GET /scripts/reconciliation/recon-dialog.js [main]
+GET /scripts/reconciliation/freebase-query-panel.js [main]
+GET /scripts/reconciliation/standard-service-panel.js [main]
+GET /scripts/dialogs/expression-preview-dialog.js [main]
+GET /scripts/dialogs/clustering-dialog.js [main]
+GET /scripts/dialogs/scatterplot-dialog.js [main]
+GET /scripts/dialogs/templating-exporter-dialog.js [main]
+GET /extension/rdf-extension/scripts/rdf-data-table-view.js [main]
+GET /extension/rdf-extension/scripts/menu-bar-extensions.js [main]
+GET /scripts/dialogs/column-reordering-dialog.js [main]
+GET /scripts/dialogs/custom-tabular-exporter-dialog.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-link.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-node.js [main]
+GET /extension/rdf-extension/scripts/suggestterm.suggest.js [main]
+recieving request for scripts/menu-bar-extensions.js
+recieving request for scripts/rdf-schema-alignment.js
+recieving request for scripts/rdf-data-table-view.js
+recieving request for scripts/rdf-schema-alignment-ui-link.js
+recieving request for scripts/rdf-schema-alignment-ui-node.js
+recieving request for scripts/suggestterm.suggest.js
+GET /extension/rdf-extension/scripts/rdf-schema-manage-vocabs-widget.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-vocabulary-manager.js [main]
+GET /extension/rdf-extension/scripts/externals/jquery.form.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-new-prefix-widget.js [main]
+GET /extension/ENSUploader/scripts/project-injection.js [main]
+GET /extension/rdf-extension/scripts/sindice/sindice-dialog.js [main]
+recieving request for scripts/rdf-schema-manage-vocabs-widget.js
+recieving request for scripts/sindice/sindice-dialog.js
+recieving request for scripts/externals/jquery.form.js
+recieving request for scripts/rdf-schema-vocabulary-manager.js
+recieving request for scripts/rdf-schema-new-prefix-widget.js
+GET /extension/freebase/scripts/extension.js [main]
+GET /extension/freebase/scripts/util/sign.js [main]
+GET /extension/freebase/scripts/util/freebase.js [main]
+GET /extension/freebase/scripts/dialogs/freebase-loading-dialog.js [main]
+GET /extension/freebase/scripts/dialogs/extend-data-preview-dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-node.js [main]
+GET /externals/imgareaselect/css/imgareaselect-default.css [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /externals/suggest/css/suggest-1.2.1.min.css [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-link.js [main]
+GET /extension/ckan-storage-extension/scripts/ckan-storage.js [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/menu.less [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/custom-suggest.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/project.less [main]
+GET /styles/project/facets.less [main]
+GET /styles/project/process.less [main]
+GET /styles/project/sidebar.less [main]
+GET /styles/widgets/histogram-widget.less [main]
+GET /styles/widgets/slider-widget.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/dialogs/expression-preview-dialog.less [main]
+GET /styles/dialogs/clustering-dialog.less [main]
+GET /styles/dialogs/scatterplot-dialog.less [main]
+GET /styles/dialogs/column-reordering-dialog.less [main]
+GET /styles/dialogs/custom-tabular-exporter-dialog.less [main]
+GET /styles/reconciliation/recon-dialog.less [main]
+GET /styles/reconciliation/standard-service-panel.less [main]
+GET /extension/rdf-extension/styles/rdf-schema-alignment-dialog.css [main]
+GET /extension/rdf-extension/styles/rdf-reconcile-service.css [main]
+GET /extension/rdf-extension/styles/sindice/recon-dialog.css [main]
+GET /extension/ENSUploader/styles/project-injection.less [main]
+recieving request for styles/rdf-reconcile-service.css
+GET /extension/ENSUploader/styles/index.css [main]
+GET /extension/freebase/styles/dialogs/freebase-loading-dialog.less [main]
+recieving request for styles/rdf-schema-alignment-dialog.css
+recieving request for styles/sindice/recon-dialog.css
+GET /extension/freebase/styles/dialogs/extend-data-preview-dialog.less [main]
+GET /extension/freebase/styles/dialogs/schema-alignment-dialog.less [main]
+GET /extension/ckan-storage-extension/styles/style.css [main]
+GET /command/core/get-preference
+GET /images/logo-googlerefine-30.png [main]
+GET /images/large-spinner.gif [main]
+GET /command/core/get-project-metadata
+POST /command/rdf-extension/initializeServices
+GET /images/favicon.png [main]
+Loaded project 2090381313988 from disk in 1 sec(s)
+GET /command/core/get-models
+GET /images/down-arrow.png [main]
+GET /images/logo-gem-40.png [main]
+GET /images/small-spinner.gif [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+GET /scripts/project/history-panel.html [main]
+GET /scripts/views/data-table/column-header.html [main]
+GET /images/menu-dropdown.png [main]
+GET /images/star-flag-map.png [main]
+GET /images/edit-map.png [main]
+GET /images/checks-map.png [main]
+GET /scripts/project/history-entry.html [main]
+GET /command/core/get-history
+GET /images/right-arrow.png [main]
+GET /images/close-map.png [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /extension/ENSUploader/html/uploader-dialog.html [main]
+POST /command/ENSUploader/uploadtoENS
+Starting service client.
+New entity: http://www.okkam.org/ens/id7576fcb5-1ed1-4c46-a1c2-4e2568080414
+New entity: http://www.okkam.org/ens/id8881445b-fc7f-4ba6-89f1-2f9047a5aea6
+New entity: http://www.okkam.org/ens/idf82e4acb-7ddf-4a8d-8c49-3c6c2c609981
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+POST /command/ENSUploader/uploadtoENS
+Starting service client.
+New entity: http://www.okkam.org/ens/id473fc82f-8dcd-49ae-a17a-82f2cef1845a
+New entity: http://www.okkam.org/ens/id463cfa33-306f-4add-a46c-cb7170d68d5c
+New entity: http://www.okkam.org/ens/id39fb0eb1-7ea0-4794-a5d3-dd04a5b8cfeb
+New entity: http://www.okkam.org/ens/id273d6b30-0c1e-41a0-b394-60a023b1c75a
+New entity: http://www.okkam.org/ens/id7418d934-c37a-44a1-8b51-9af42cae8750
+New entity: http://www.okkam.org/ens/idfcfc89d4-72fb-487a-a4bb-4afd277ca920
+New entity: http://www.okkam.org/ens/idaf7180f3-eb1d-4c25-bb8d-0297db795764
+New entity: http://www.okkam.org/ens/idd582cf6c-edc6-4813-9c1e-f281e153e55f
+New entity: http://www.okkam.org/ens/id3af2103e-5891-42cc-9315-8e4f64c5c22c
+New entity: http://www.okkam.org/ens/ide0d1585b-17d0-4716-841c-07fe1c6bb1e7
+New entity: http://www.okkam.org/ens/id9ff0d60a-c17c-4681-a3fc-8d20d12f115e
+New entity: http://www.okkam.org/ens/id41dbe583-d62b-476a-98b8-655d451350f0
+New entity: http://www.okkam.org/ens/idbe52c601-e946-4f54-bca8-c5327f5f4614
+New entity: http://www.okkam.org/ens/idc7fc83c6-fed3-4f9f-af46-6096c5b35a77
+New entity: http://www.okkam.org/ens/idf30ffe2e-66ff-4dc7-bd4d-fb4775f0b867
+New entity: http://www.okkam.org/ens/id5b9f716f-160f-41d5-9885-215cffc3ba63
+New entity: http://www.okkam.org/ens/idec5f2ff7-da1f-429f-98fb-73d17cacaa59
+New entity: http://www.okkam.org/ens/ideffe7724-0193-414f-9966-93139a47c121
+New entity: http://www.okkam.org/ens/id0e25cf14-ba9d-482b-aa09-7223db06c969
+New entity: http://www.okkam.org/ens/id8fb610c0-df85-4244-86d2-78a2d0b57cb3
+New entity: http://www.okkam.org/ens/ideb010564-e6a6-4dd0-b9be-99fde87478b5
+New entity: http://www.okkam.org/ens/id14a17faf-bde6-435d-bf6e-df376048173b
+Saved workspace
+Saved workspace
+Shutdown hook executing
+Graceful shutdown SocketConnector@127.0.0.1:3333
+Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@8e836c{/,/home/seidm/workspace/grefine-all/main/webapp}
+Saved workspace
+Stopping Butterfly...
+done.
+Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/date.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/pure.css [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+Shutdown hook executing
+Graceful shutdown SocketConnector@127.0.0.1:3333
+Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@5b3e5d{/,/home/seidm/workspace/grefine-all/main/webapp}
+Saved workspace
+Stopping Butterfly...
+done.
+Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/date.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /scripts/util/misc.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/date.js [main]
+GET /scripts/util/url.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/index.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/util/dialog.less [main]
+GET /styles/pure.css [main]
+GET /styles/common.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+Shutdown hook executing
+Graceful shutdown SocketConnector@127.0.0.1:3333
+Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@5b02a6{/,/home/seidm/workspace/grefine-all/main/webapp}
+Saved workspace
+Stopping Butterfly...
+done.
+Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/date.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/index.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /styles/util/dialog.less [main]
+GET /styles/pure.css [main]
+GET /styles/common.less [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+Shutdown hook executing
+Saved workspace
+Stopping Butterfly...
+done.
+Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/date.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/dialog.less [main]
+GET /styles/index.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+Graceful shutdown SocketConnector@127.0.0.1:3333
+Shutdown hook executing
+Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@1172c5{/,/home/seidm/workspace/grefine-all/main/webapp}
+Saved workspace
+Stopping Butterfly...
+done.
+Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/date.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/encoding.less [main]
+GET /styles/util/dialog.less [main]
+GET /styles/index.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+Shutdown hook executing
+Saved workspace
+Stopping Butterfly...
+done.
+Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+No mount point defined for module 'ckan-storage-extension', mounting to '/extension/ckan-storage-extension'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/date.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+GET /command/core/get-history
+Loaded project 2090381313988 from disk in 0 sec(s)
+POST /command/core/get-rows
+POST /command/core/compute-facets
+Graceful shutdown SocketConnector@127.0.0.1:3333
+Shutdown hook executing
+Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@1578426{/,/home/seidm/workspace/grefine-all/main/webapp}
+Saved workspace
+Stopping Butterfly...
+done.
+Shutdown hook complete
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/date.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/logo-gem-40.png [main]
+GET /images/favicon.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /project [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/suggest/suggest-1.2.1.min.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/imgareaselect/jquery.imgareaselect.js [main]
+GET /externals/date.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/project.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/custom-suggest.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/widgets/histogram-widget.js [main]
+GET /scripts/widgets/slider-widget.js [main]
+GET /scripts/project/browsing-engine.js [main]
+GET /scripts/project/history-panel.js [main]
+GET /scripts/project/process-panel.js [main]
+GET /scripts/project/extension-bar.js [main]
+GET /scripts/project/summary-bar.js [main]
+GET /scripts/facets/list-facet.js [main]
+GET /scripts/project/exporters.js [main]
+GET /scripts/project/scripting.js [main]
+GET /scripts/facets/timerange-facet.js [main]
+GET /scripts/facets/range-facet.js [main]
+GET /scripts/facets/scatterplot-facet.js [main]
+GET /scripts/facets/text-search-facet.js [main]
+GET /scripts/views/data-table/data-table-view.js [main]
+GET /scripts/views/data-table/column-header-ui.js [main]
+GET /scripts/views/data-table/cell-ui.js [main]
+GET /scripts/views/data-table/menu-facets.js [main]
+GET /scripts/views/data-table/menu-edit-cells.js [main]
+GET /scripts/views/data-table/menu-edit-column.js [main]
+GET /scripts/reconciliation/recon-manager.js [main]
+GET /scripts/views/data-table/menu-reconcile.js [main]
+GET /scripts/reconciliation/standard-service-panel.js [main]
+GET /scripts/dialogs/expression-preview-dialog.js [main]
+GET /scripts/reconciliation/freebase-query-panel.js [main]
+GET /scripts/dialogs/clustering-dialog.js [main]
+GET /scripts/reconciliation/recon-dialog.js [main]
+GET /scripts/dialogs/scatterplot-dialog.js [main]
+GET /scripts/dialogs/templating-exporter-dialog.js [main]
+GET /scripts/dialogs/column-reordering-dialog.js [main]
+GET /scripts/dialogs/custom-tabular-exporter-dialog.js [main]
+GET /extension/rdf-extension/scripts/menu-bar-extensions.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-link.js [main]
+GET /extension/rdf-extension/scripts/rdf-data-table-view.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-node.js [main]
+GET /extension/rdf-extension/scripts/suggestterm.suggest.js [main]
+recieving request for scripts/rdf-schema-alignment-ui-node.js
+recieving request for scripts/rdf-schema-alignment-ui-link.js
+recieving request for scripts/rdf-schema-alignment.js
+GET /extension/rdf-extension/scripts/rdf-schema-manage-vocabs-widget.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-vocabulary-manager.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-new-prefix-widget.js [main]
+recieving request for scripts/menu-bar-extensions.js
+GET /extension/rdf-extension/scripts/externals/jquery.form.js [main]
+recieving request for scripts/suggestterm.suggest.js
+GET /extension/rdf-extension/scripts/sindice/sindice-dialog.js [main]
+recieving request for scripts/rdf-schema-manage-vocabs-widget.js
+GET /extension/ENSUploader/scripts/project-injection.js [main]
+recieving request for scripts/rdf-schema-vocabulary-manager.js
+GET /extension/freebase/scripts/extension.js [main]
+recieving request for scripts/rdf-data-table-view.js
+GET /extension/freebase/scripts/util/sign.js [main]
+recieving request for scripts/rdf-schema-new-prefix-widget.js
+GET /extension/freebase/scripts/util/freebase.js [main]
+recieving request for scripts/externals/jquery.form.js
+recieving request for scripts/sindice/sindice-dialog.js
+GET /extension/freebase/scripts/dialogs/extend-data-preview-dialog.js [main]
+GET /extension/freebase/scripts/dialogs/freebase-loading-dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-node.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-link.js [main]
+GET /externals/suggest/css/suggest-1.2.1.min.css [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /externals/imgareaselect/css/imgareaselect-default.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/pure.css [main]
+GET /styles/common.less [main]
+GET /styles/util/menu.less [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/custom-suggest.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/project.less [main]
+GET /styles/project/sidebar.less [main]
+GET /styles/project/facets.less [main]
+GET /styles/widgets/histogram-widget.less [main]
+GET /styles/project/process.less [main]
+GET /styles/widgets/slider-widget.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/dialogs/expression-preview-dialog.less [main]
+GET /styles/dialogs/scatterplot-dialog.less [main]
+GET /styles/dialogs/custom-tabular-exporter-dialog.less [main]
+GET /styles/reconciliation/recon-dialog.less [main]
+GET /styles/dialogs/column-reordering-dialog.less [main]
+GET /styles/dialogs/clustering-dialog.less [main]
+GET /styles/reconciliation/standard-service-panel.less [main]
+GET /extension/rdf-extension/styles/rdf-schema-alignment-dialog.css [main]
+GET /extension/rdf-extension/styles/rdf-reconcile-service.css [main]
+GET /extension/ENSUploader/styles/index.css [main]
+GET /extension/rdf-extension/styles/sindice/recon-dialog.css [main]
+GET /extension/ENSUploader/styles/project-injection.less [main]
+GET /extension/freebase/styles/dialogs/freebase-loading-dialog.less [main]
+GET /extension/freebase/styles/dialogs/extend-data-preview-dialog.less [main]
+recieving request for styles/rdf-reconcile-service.css
+recieving request for styles/rdf-schema-alignment-dialog.css
+recieving request for styles/sindice/recon-dialog.css
+GET /command/core/get-preference
+GET /extension/freebase/styles/dialogs/schema-alignment-dialog.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /images/large-spinner.gif [main]
+GET /command/core/get-project-metadata
+POST /command/rdf-extension/initializeServices
+Loaded project 2090381313988 from disk in 0 sec(s)
+GET /command/core/get-models
+GET /images/down-arrow.png [main]
+GET /images/logo-gem-40.png [main]
+GET /images/small-spinner.gif [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+GET /scripts/project/history-panel.html [main]
+GET /scripts/views/data-table/column-header.html [main]
+GET /images/menu-dropdown.png [main]
+GET /images/star-flag-map.png [main]
+GET /images/edit-map.png [main]
+GET /images/checks-map.png [main]
+GET /scripts/project/history-entry.html [main]
+GET /images/favicon.png [main]
+GET /command/core/get-history
+GET /images/right-arrow.png [main]
+GET /images/close-map.png [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /scripts/reconciliation/recon-dialog.html [main]
+GET /scripts/reconciliation/standard-service-panel.html [main]
+POST /command/core/guess-types-of-column
+Starting Server bound to '127.0.0.1:3333'
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Initializing context: '/' from '/home/seidm/workspace/grefine-all/main/webapp'
+jetty-6.1.22
+NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+Started SocketConnector@127.0.0.1:3333
+Starting Google Refine 2.5 [TRUNK]...
+Using workspace directory: /home/seidm/.local/share/google/refine
+Loading workspace: /home/seidm/.local/share/google/refine/workspace.json
+Starting butterfly ...
+Properties loaded from /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/butterfly.properties
+> process properties
+Butterfly home: /home/seidm/workspace/grefine-all/main/webapp
+< process properties
+> load modules
+< load modules
+> create modules
+< create modules
+> load module wirings
+Loaded module wirings from: /home/seidm/workspace/grefine-all/main/webapp/WEB-INF/modules.properties
+< load module wirings
+> wire modules
+mounting modules
+No mount point defined for module 'rdf-extension', mounting to '/extension/rdf-extension'
+No mount point defined for module 'jython', mounting to '/extension/jython'
+No mount point defined for module 'ENSUploader', mounting to '/extension/ENSUploader'
+No mount point defined for module 'freebase', mounting to '/extension/freebase'
+< wire modules
+> configure modules
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : added #makeAList(  list ) : source = macros.vm
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Loaded User Directive: edu.mit.simile.butterfly.velocity.Super
+Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+< configure modules
+> initialize modules
+< initialize modules
+GET / [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/date.js [main]
+GET /scripts/util/misc.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/index.js [main]
+GET /scripts/index/open-project-ui.js [main]
+GET /scripts/index/import-project-ui.js [main]
+GET /scripts/index/create-project-ui.js [main]
+GET /scripts/index/default-importing-controller/controller.js [main]
+GET /scripts/index/default-importing-controller/file-selection-panel.js [main]
+GET /scripts/index/default-importing-sources/sources.js [main]
+GET /scripts/index/default-importing-controller/parsing-panel.js [main]
+GET /scripts/index/parser-interfaces/separator-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/preview-table.js [main]
+GET /scripts/index/parser-interfaces/line-based-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/fixed-width-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/excel-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/xml-parser-ui.js [main]
+GET /scripts/index/parser-interfaces/json-parser-ui.js [main]
+GET /extension/ENSUploader/scripts/index.js [main]
+GET /extension/ENSUploader/scripts/dialog.js [main]
+GET /scripts/index/parser-interfaces/rdf-triples-parser-ui.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/index.less [main]
+GET /styles/index/create-project-ui.less [main]
+GET /styles/index/open-project-ui.less [main]
+GET /styles/index/import-project-ui.less [main]
+GET /styles/index/default-importing-controller.less [main]
+GET /styles/index/default-importing-file-selection-panel.less [main]
+GET /styles/index/default-importing-parsing-panel.less [main]
+GET /styles/index/default-importing-sources.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/index/fixed-width-parser-ui.less [main]
+GET /styles/index/xml-parser-ui.less [main]
+GET /styles/index/json-parser-ui.less [main]
+GET /images/logo-googlerefine-30.png [main]
+GET /scripts/index/create-project-ui-source-selection.html [main]
+GET /images/logo-gem-40.png [main]
+GET /scripts/index/create-project-progress-panel.html [main]
+GET /scripts/index/create-project-error-panel.html [main]
+POST /command/core/get-importing-configuration
+GET /scripts/index/open-project-ui.html [main]
+GET /scripts/index/default-importing-sources/import-from-computer-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-web-form.html [main]
+GET /scripts/index/default-importing-sources/import-from-clipboard-form.html [main]
+GET /command/core/get-all-project-metadata
+GET /scripts/index/import-project-ui.html [main]
+GET /images/close.png [main]
+GET /command/core/get-version
+GET /extension/ENSUploader/html/login.html [main]
+GET /images/favicon.png [main]
+GET /project [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/suggest/suggest-1.2.1.min.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/imgareaselect/jquery.imgareaselect.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /externals/date.js [main]
+GET /scripts/project.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/custom-suggest.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/widgets/histogram-widget.js [main]
+GET /scripts/widgets/slider-widget.js [main]
+GET /scripts/project/browsing-engine.js [main]
+GET /scripts/project/history-panel.js [main]
+GET /scripts/project/process-panel.js [main]
+GET /scripts/project/extension-bar.js [main]
+GET /scripts/project/summary-bar.js [main]
+GET /scripts/project/exporters.js [main]
+GET /scripts/project/scripting.js [main]
+GET /scripts/facets/timerange-facet.js [main]
+GET /scripts/facets/scatterplot-facet.js [main]
+GET /scripts/facets/range-facet.js [main]
+GET /scripts/facets/list-facet.js [main]
+GET /scripts/facets/text-search-facet.js [main]
+GET /scripts/views/data-table/data-table-view.js [main]
+GET /scripts/views/data-table/cell-ui.js [main]
+GET /scripts/views/data-table/column-header-ui.js [main]
+GET /scripts/views/data-table/menu-facets.js [main]
+GET /scripts/views/data-table/menu-edit-cells.js [main]
+GET /scripts/views/data-table/menu-edit-column.js [main]
+GET /scripts/views/data-table/menu-reconcile.js [main]
+GET /scripts/reconciliation/recon-dialog.js [main]
+GET /scripts/reconciliation/freebase-query-panel.js [main]
+GET /scripts/reconciliation/recon-manager.js [main]
+GET /scripts/reconciliation/standard-service-panel.js [main]
+GET /scripts/dialogs/expression-preview-dialog.js [main]
+GET /scripts/dialogs/clustering-dialog.js [main]
+GET /scripts/dialogs/scatterplot-dialog.js [main]
+GET /scripts/dialogs/column-reordering-dialog.js [main]
+GET /scripts/dialogs/templating-exporter-dialog.js [main]
+GET /scripts/dialogs/custom-tabular-exporter-dialog.js [main]
+GET /extension/rdf-extension/scripts/menu-bar-extensions.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-link.js [main]
+GET /extension/rdf-extension/scripts/rdf-data-table-view.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-node.js [main]
+GET /extension/rdf-extension/scripts/suggestterm.suggest.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment.js [main]
+recieving request for scripts/suggestterm.suggest.js
+recieving request for scripts/rdf-schema-alignment-ui-node.js
+recieving request for scripts/menu-bar-extensions.js
+recieving request for scripts/rdf-schema-alignment.js
+recieving request for scripts/rdf-schema-alignment-ui-link.js
+recieving request for scripts/rdf-data-table-view.js
+GET /extension/rdf-extension/scripts/rdf-schema-manage-vocabs-widget.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-vocabulary-manager.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-new-prefix-widget.js [main]
+GET /extension/rdf-extension/scripts/externals/jquery.form.js [main]
+GET /extension/ENSUploader/scripts/project-injection.js [main]
+GET /extension/rdf-extension/scripts/sindice/sindice-dialog.js [main]
+recieving request for scripts/rdf-schema-manage-vocabs-widget.js
+GET /extension/freebase/scripts/extension.js [main]
+recieving request for scripts/rdf-schema-vocabulary-manager.js
+recieving request for scripts/sindice/sindice-dialog.js
+GET /extension/freebase/scripts/util/sign.js [main]
+GET /extension/freebase/scripts/dialogs/freebase-loading-dialog.js [main]
+GET /extension/freebase/scripts/util/freebase.js [main]
+recieving request for scripts/externals/jquery.form.js
+recieving request for scripts/rdf-schema-new-prefix-widget.js
+GET /extension/freebase/scripts/dialogs/extend-data-preview-dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-node.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-link.js [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /externals/imgareaselect/css/imgareaselect-default.css [main]
+GET /externals/suggest/css/suggest-1.2.1.min.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/menu.less [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/custom-suggest.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/project.less [main]
+GET /styles/project/sidebar.less [main]
+GET /styles/widgets/slider-widget.less [main]
+GET /styles/project/process.less [main]
+GET /styles/widgets/histogram-widget.less [main]
+GET /styles/project/facets.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/dialogs/expression-preview-dialog.less [main]
+GET /styles/dialogs/clustering-dialog.less [main]
+GET /styles/dialogs/scatterplot-dialog.less [main]
+GET /styles/dialogs/column-reordering-dialog.less [main]
+GET /styles/reconciliation/recon-dialog.less [main]
+GET /extension/rdf-extension/styles/rdf-schema-alignment-dialog.css [main]
+GET /styles/reconciliation/standard-service-panel.less [main]
+GET /styles/dialogs/custom-tabular-exporter-dialog.less [main]
+GET /extension/rdf-extension/styles/rdf-reconcile-service.css [main]
+GET /extension/rdf-extension/styles/sindice/recon-dialog.css [main]
+GET /extension/ENSUploader/styles/index.css [main]
+GET /extension/freebase/styles/dialogs/freebase-loading-dialog.less [main]
+GET /extension/ENSUploader/styles/project-injection.less [main]
+recieving request for styles/rdf-reconcile-service.css
+GET /extension/freebase/styles/dialogs/schema-alignment-dialog.less [main]
+GET /extension/freebase/styles/dialogs/extend-data-preview-dialog.less [main]
+recieving request for styles/rdf-schema-alignment-dialog.css
+recieving request for styles/sindice/recon-dialog.css
+GET /command/core/get-preference
+GET /images/large-spinner.gif [main]
+GET /command/core/get-project-metadata
+POST /command/rdf-extension/initializeServices
+GET /images/favicon.png [main]
+Loaded project 2090381313988 from disk in 2 sec(s)
+GET /command/core/get-models
+GET /images/down-arrow.png [main]
+GET /images/small-spinner.gif [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+GET /scripts/project/history-panel.html [main]
+GET /scripts/views/data-table/column-header.html [main]
+GET /images/menu-dropdown.png [main]
+GET /images/star-flag-map.png [main]
+GET /images/edit-map.png [main]
+GET /images/checks-map.png [main]
+GET /scripts/project/history-entry.html [main]
+GET /command/core/get-history
+GET /project [main]
+GET /wirings.js [main]
+GET /externals/jquery-1.4.2.min.js [main]
+GET /externals/jquery.cookie.js [main]
+GET /externals/jquery.eventstack-0.3.js [main]
+GET /externals/suggest/suggest-1.2.1.min.js [main]
+GET /externals/jquery-ui/jquery-ui-1.8.custom.min.js [main]
+GET /externals/imgareaselect/jquery.imgareaselect.js [main]
+GET /externals/CFInstall.min.js [main]
+GET /externals/date.js [main]
+GET /scripts/chrome-frame.js [main]
+GET /scripts/util/ajax.js [main]
+GET /scripts/util/string.js [main]
+GET /scripts/util/url.js [main]
+GET /scripts/util/misc.js [main]
+GET /scripts/project.js [main]
+GET /scripts/util/menu.js [main]
+GET /scripts/util/dialog.js [main]
+GET /scripts/util/dom.js [main]
+GET /scripts/util/custom-suggest.js [main]
+GET /scripts/util/encoding.js [main]
+GET /scripts/widgets/histogram-widget.js [main]
+GET /scripts/widgets/slider-widget.js [main]
+GET /scripts/project/browsing-engine.js [main]
+GET /scripts/project/process-panel.js [main]
+GET /scripts/project/extension-bar.js [main]
+GET /scripts/project/history-panel.js [main]
+GET /scripts/project/exporters.js [main]
+GET /scripts/project/summary-bar.js [main]
+GET /scripts/project/scripting.js [main]
+GET /scripts/facets/list-facet.js [main]
+GET /scripts/facets/range-facet.js [main]
+GET /scripts/facets/timerange-facet.js [main]
+GET /scripts/facets/scatterplot-facet.js [main]
+GET /scripts/facets/text-search-facet.js [main]
+GET /scripts/views/data-table/data-table-view.js [main]
+GET /scripts/views/data-table/cell-ui.js [main]
+GET /scripts/views/data-table/column-header-ui.js [main]
+GET /scripts/views/data-table/menu-facets.js [main]
+GET /scripts/views/data-table/menu-edit-cells.js [main]
+GET /scripts/views/data-table/menu-edit-column.js [main]
+GET /scripts/views/data-table/menu-reconcile.js [main]
+GET /scripts/reconciliation/recon-manager.js [main]
+GET /scripts/reconciliation/recon-dialog.js [main]
+GET /scripts/reconciliation/freebase-query-panel.js [main]
+GET /scripts/reconciliation/standard-service-panel.js [main]
+GET /scripts/dialogs/expression-preview-dialog.js [main]
+GET /scripts/dialogs/clustering-dialog.js [main]
+GET /scripts/dialogs/scatterplot-dialog.js [main]
+GET /scripts/dialogs/templating-exporter-dialog.js [main]
+GET /scripts/dialogs/column-reordering-dialog.js [main]
+GET /scripts/dialogs/custom-tabular-exporter-dialog.js [main]
+GET /extension/rdf-extension/scripts/menu-bar-extensions.js [main]
+GET /extension/rdf-extension/scripts/rdf-data-table-view.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-node.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-alignment-ui-link.js [main]
+GET /extension/rdf-extension/scripts/suggestterm.suggest.js [main]
+recieving request for scripts/menu-bar-extensions.js
+GET /extension/rdf-extension/scripts/rdf-schema-manage-vocabs-widget.js [main]
+recieving request for scripts/rdf-schema-alignment.js
+recieving request for scripts/rdf-data-table-view.js
+GET /extension/rdf-extension/scripts/rdf-schema-vocabulary-manager.js [main]
+GET /extension/rdf-extension/scripts/rdf-schema-new-prefix-widget.js [main]
+recieving request for scripts/suggestterm.suggest.js
+recieving request for scripts/rdf-schema-alignment-ui-node.js
+GET /extension/rdf-extension/scripts/externals/jquery.form.js [main]
+GET /extension/rdf-extension/scripts/sindice/sindice-dialog.js [main]
+recieving request for scripts/rdf-schema-alignment-ui-link.js
+GET /extension/ENSUploader/scripts/project-injection.js [main]
+recieving request for scripts/sindice/sindice-dialog.js
+GET /extension/freebase/scripts/extension.js [main]
+recieving request for scripts/rdf-schema-vocabulary-manager.js
+GET /extension/freebase/scripts/util/sign.js [main]
+GET /extension/freebase/scripts/util/freebase.js [main]
+recieving request for scripts/rdf-schema-new-prefix-widget.js
+GET /extension/freebase/scripts/dialogs/freebase-loading-dialog.js [main]
+recieving request for scripts/externals/jquery.form.js
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-node.js [main]
+recieving request for scripts/rdf-schema-manage-vocabs-widget.js
+GET /extension/freebase/scripts/dialogs/schema-alignment/dialog.js [main]
+GET /extension/freebase/scripts/dialogs/schema-alignment/ui-link.js [main]
+GET /extension/freebase/scripts/dialogs/extend-data-preview-dialog.js [main]
+GET /externals/suggest/css/suggest-1.2.1.min.css [main]
+GET /externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css [main]
+GET /externals/imgareaselect/css/imgareaselect-default.css [main]
+GET /styles/jquery-ui-overrides.less [main]
+GET /styles/common.less [main]
+GET /styles/pure.css [main]
+GET /styles/util/menu.less [main]
+GET /styles/util/dialog.less [main]
+GET /styles/util/custom-suggest.less [main]
+GET /styles/util/encoding.less [main]
+GET /styles/project.less [main]
+GET /styles/project/sidebar.less [main]
+GET /styles/project/facets.less [main]
+GET /styles/project/process.less [main]
+GET /styles/widgets/slider-widget.less [main]
+GET /styles/views/data-table-view.less [main]
+GET /styles/dialogs/expression-preview-dialog.less [main]
+GET /styles/widgets/histogram-widget.less [main]
+GET /styles/dialogs/clustering-dialog.less [main]
+GET /styles/dialogs/scatterplot-dialog.less [main]
+GET /styles/dialogs/column-reordering-dialog.less [main]
+GET /styles/dialogs/custom-tabular-exporter-dialog.less [main]
+GET /styles/reconciliation/recon-dialog.less [main]
+GET /styles/reconciliation/standard-service-panel.less [main]
+GET /extension/rdf-extension/styles/rdf-schema-alignment-dialog.css [main]
+GET /extension/rdf-extension/styles/rdf-reconcile-service.css [main]
+GET /extension/rdf-extension/styles/sindice/recon-dialog.css [main]
+GET /extension/ENSUploader/styles/project-injection.less [main]
+GET /extension/ENSUploader/styles/index.css [main]
+recieving request for styles/rdf-reconcile-service.css
+GET /extension/freebase/styles/dialogs/freebase-loading-dialog.less [main]
+GET /extension/freebase/styles/dialogs/extend-data-preview-dialog.less [main]
+GET /extension/freebase/styles/dialogs/schema-alignment-dialog.less [main]
+recieving request for styles/sindice/recon-dialog.css
+recieving request for styles/rdf-schema-alignment-dialog.css
+GET /command/core/get-preference
+GET /images/logo-googlerefine-30.png [main]
+GET /images/large-spinner.gif [main]
+GET /command/core/get-project-metadata
+POST /command/rdf-extension/initializeServices
+GET /command/core/get-models
+GET /images/down-arrow.png [main]
+GET /images/logo-gem-40.png [main]
+GET /images/small-spinner.gif [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+GET /scripts/project/history-panel.html [main]
+GET /scripts/views/data-table/column-header.html [main]
+GET /images/menu-dropdown.png [main]
+GET /images/star-flag-map.png [main]
+GET /images/edit-map.png [main]
+GET /images/checks-map.png [main]
+GET /scripts/project/history-entry.html [main]
+GET /command/core/get-history
+GET /images/favicon.png [main]
+GET /images/right-arrow.png [main]
+GET /scripts/reconciliation/recon-dialog.html [main]
+GET /images/close-map.png [main]
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /scripts/reconciliation/standard-service-panel.html [main]
+POST /command/core/guess-types-of-column
+Saved workspace
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:760)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:632)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:188)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Saved workspace
+Saved workspace
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost:9080/okkamrefine/reconcile
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:188)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost:9080/okkamrefine/reconcile
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:188)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+POST /command/core/guess-types-of-column
+Saved workspace
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:760)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:632)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:188)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1014)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:175)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1014)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:175)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1014)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:175)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+POST /command/core/guess-types-of-column
+Saved workspace
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost:9080/okkamrefine/reconcile
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:188)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"FINALE EMILIA","limit":3},"q1":{"query":"TRENTO","limit":3},"q2":{"query":"CIVITELLA DEL TRONTO","limit":3},"q3":{"query":"ZURIGO","limit":3},"q4":{"query":"GENZANO DI ROMA","limit":3},"q5":{"query":"VILLA LAGARINA","limit":3},"q6":{"query":"ROVERETO","limit":3},"q7":{"query":"TARANTO","limit":3},"q8":{"query":"MORI","limit":3},"q9":{"query":"TORINO","limit":3}}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:760)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:632)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:188)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Saved workspace
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+POST /command/core/guess-types-of-column
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+GET /command/core/get-history
+POST /command/core/get-rows
+POST /command/core/compute-facets
+POST /command/core/guess-types-of-column
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"ABELLI","limit":3},"q1":{"query":"ADDEZI","limit":3},"q2":{"query":"AFFONTI","limit":3},"q3":{"query":"AGOSTINELLI","limit":3},"q4":{"query":"AGOSTINI","limit":3},"q5":{"query":"ALBANO","limit":3},"q6":{"query":"ALBERTI","limit":3},"q7":{"query":"ALBERTINI","limit":3},"q8":{"query":"ALDRIGHETTONI","limit":3},"q9":{"query":"ALESSI","limit":3}}
+java.io.FileNotFoundException: http://localhost:9080/okkamrefine/reconcile
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1434)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:188)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+POST /command/core/guess-types-of-column
+POST /command/core/guess-types-of-column
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Loaded project 2090381313988 from disk in 1 sec(s)
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Saved workspace
+Failed to guess cell types for load
+{"q0":{"query":"ABELLI","limit":3},"q1":{"query":"ADDEZI","limit":3},"q2":{"query":"AFFONTI","limit":3},"q3":{"query":"AGOSTINELLI","limit":3},"q4":{"query":"AGOSTINI","limit":3},"q5":{"query":"ALBANO","limit":3},"q6":{"query":"ALBERTI","limit":3},"q7":{"query":"ALBERTINI","limit":3},"q8":{"query":"ALDRIGHETTONI","limit":3},"q9":{"query":"ALESSI","limit":3}}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:760)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:632)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:188)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+POST /command/core/guess-types-of-column
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Failed to guess cell types for load
+{"q0":{"query":"ABELLI","limit":3},"q1":{"query":"ADDEZI","limit":3},"q2":{"query":"AFFONTI","limit":3},"q3":{"query":"AGOSTINELLI","limit":3},"q4":{"query":"AGOSTINI","limit":3},"q5":{"query":"ALBANO","limit":3},"q6":{"query":"ALBERTI","limit":3},"q7":{"query":"ALBERTINI","limit":3},"q8":{"query":"ALDRIGHETTONI","limit":3},"q9":{"query":"ALESSI","limit":3}}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1014)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.guessTypes(GuessTypesOfColumnCommand.java:175)
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommand.doPost(GuessTypesOfColumnCommand.java:93)
+	at com.google.refine.RefineServlet.service(RefineServlet.java:177)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.mortbay.servlet.UserAgentFilter.doFilter(UserAgentFilter.java:81)
+	at org.mortbay.servlet.GzipFilter.doFilter(GzipFilter.java:132)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+POST /command/core/guess-types-of-column
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+GET /images/right-arrow.png [main]
+Saved workspace
+POST /command/core/guess-types-of-column
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Saved workspace
+GET /images/right-arrow.png [main]
+POST /command/core/guess-types-of-column
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace
+Saved workspace

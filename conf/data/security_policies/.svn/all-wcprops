@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/security_policies
+END
+extended_to_normal_credentials.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/security_policies/extended_to_normal_credentials.txt
+END
+disclosure_policy.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/security_policies/disclosure_policy.txt
+END
+extended_credentials.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/security_policies/extended_credentials.txt
+END
+TEMPLATE-credential_policy.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/security_policies/TEMPLATE-credential_policy.txt
+END
+attribute_weights.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/security_policies/attribute_weights.txt
+END
+credential_policy.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/security_policies/credential_policy.txt
+END
+access_policy.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/security_policies/access_policy.txt
+END

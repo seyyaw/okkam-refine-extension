@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/grefine-okkam-extension/src/com/google/refine/ENSUploader/commands
+END
+HelloWorld.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/grefine-okkam-extension/src/com/google/refine/ENSUploader/commands/HelloWorld.java
+END
+UploadAsRdfCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/grefine-okkam-extension/src/com/google/refine/ENSUploader/commands/UploadAsRdfCommand.java
+END

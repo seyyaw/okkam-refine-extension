@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/grefine-okkam-extension/lib
+END
+iAccess-okkam-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/grefine-okkam-extension/lib/iAccess-okkam-1.0.0.jar
+END
+bcprov-jdk16-145.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/grefine-okkam-extension/lib/bcprov-jdk16-145.jar
+END
+wsdl4j-1.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/grefine-okkam-extension/lib/wsdl4j-1.5.1.jar
+END
+okkam-client-2.2.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/grefine-okkam-extension/lib/okkam-client-2.2.0.0.jar
+END
+junit-4.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/grefine-okkam-extension/lib/junit-4.4.jar
+END
+okkam-proxy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/grefine-okkam-extension/lib/okkam-proxy.jar
+END
+webservices-rt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/grefine-okkam-extension/lib/webservices-rt.jar
+END
+log4j-1.2.13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/9/grefine-okkam-extension/lib/log4j-1.2.13.jar
+END
+webservices-tools.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/grefine-okkam-extension/lib/webservices-tools.jar
+END
+webserviceutils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/grefine-okkam-extension/lib/webserviceutils.jar
+END

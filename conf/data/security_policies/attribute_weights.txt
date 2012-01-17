@@ -1,0 +1,13 @@
+% Each attribute should have exactly one level of sensitiveness.
+% If more than one level applicable then specify the highest one.
+% If no level is applicable for an attribute then specify 0. 
+% If level of sensitiveness makes no sense to you then 
+% comment out all attributes with "%" at beginning of their lines, and 
+% look at the accompanying file "extended_credentials.txt".
+
+
+%attrWeight(attribute_id,issuer_id,weight_number).
+%Note: weights are integer values in range 0..~32000
+
+attrWeight( "ENS Public" , "C=IT,O=OKKAM Foundation,CN=OKKAM Global Root CA" , 0 ).
+

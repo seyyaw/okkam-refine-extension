@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/certificates/okkamadmin
+END
+okkamadmin.cer
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/certificates/okkamadmin/okkamadmin.cer
+END
+okkamadmin_ENSPublicAdministrator.cer
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/certificates/okkamadmin/okkamadmin_ENSPublicAdministrator.cer
+END
+okkamadmin_ENSPublicAuthorizationManager.cer
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/certificates/okkamadmin/okkamadmin_ENSPublicAuthorizationManager.cer
+END

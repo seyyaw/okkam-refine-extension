@@ -1,0 +1,87 @@
+10
+
+dir
+3
+https://okkam-refine-extension.googlecode.com/svn/grefine-okkam-extension/conf/data
+https://okkam-refine-extension.googlecode.com/svn
+
+
+
+2012-01-03T15:48:54.706958Z
+3
+seidymam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d91547ca-9536-4517-ad93-1324198b815f
+
+
+
+
+
+
+0
+
+certificates
+dir
+
+config_dlv.xml
+file
+
+
+
+
+2011-11-26T14:44:11.000000Z
+1fc764ad6bf073920156818039354b8d
+2012-01-03T15:48:54.706958Z
+3
+seidymam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7499
+
+dlv
+dir
+
+keystores
+dir
+
+legal_policies
+dir
+
+security_policies
+dir
+
+trusted_authorities
+dir
+

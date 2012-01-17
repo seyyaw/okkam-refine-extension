@@ -1,0 +1,8 @@
+package com.google.refine.ENSUploader.commands;
+
+
+public class HelloWorld {
+public  void hello(){
+    System.out.println("Succefully Enjected");
+}
+}

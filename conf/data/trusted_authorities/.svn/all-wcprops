@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/trusted_authorities
+END
+okkamTrustStore.jks
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/grefine-okkam-extension/conf/data/trusted_authorities/okkamTrustStore.jks
+END

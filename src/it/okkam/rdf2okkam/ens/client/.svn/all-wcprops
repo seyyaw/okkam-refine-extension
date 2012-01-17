@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client
+END
+ServiceClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/ServiceClient.java
+END
+EnsQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/EnsQuery.java
+END
+EnsConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/EnsConfig.java
+END
+ResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/ResponseType.java
+END
+QueryResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/QueryResponse.java
+END
+CandidateEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/CandidateEntity.java
+END
+OkkamClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/OkkamClient.java
+END
+EnsClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/EnsClient.java
+END
+EnsCredentials.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/client/EnsCredentials.java
+END

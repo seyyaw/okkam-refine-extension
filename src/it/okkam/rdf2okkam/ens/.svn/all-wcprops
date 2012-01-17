@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens
+END
+EnsEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsEvent.java
+END
+EnsArtifact_TypeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsArtifact_TypeFactory.java
+END
+EnsEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsEntity.java
+END
+EnsLocationFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsLocationFactory.java
+END
+EnsPersonFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsPersonFactory.java
+END
+EnsOther.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsOther.java
+END
+EnsOtherFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsOtherFactory.java
+END
+EnsLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsLocation.java
+END
+EnsPerson.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsPerson.java
+END
+EntityBuildStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EntityBuildStrategy.java
+END
+EnsArtifact_Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsArtifact_Type.java
+END
+EnsEntityFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsEntityFactory.java
+END
+EntityTypeSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EntityTypeSelector.java
+END
+EnsEventFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsEventFactory.java
+END
+EnsArtifact_Instance.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsArtifact_Instance.java
+END
+EnsArtifact_InstanceFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4/grefine-okkam-extension/src/it/okkam/rdf2okkam/ens/EnsArtifact_InstanceFactory.java
+END

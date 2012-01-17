@@ -1,0 +1,4 @@
+% Disclosure Policy 
+
+
+cred( Holder , "ENS Public" , "C=IT,O=OKKAM Foundation,CN=OKKAM Global Root CA" ) :- id( Holder , "C=IT,O=OKKAM Foundation,CN=OKKAM Global Root CA" ).

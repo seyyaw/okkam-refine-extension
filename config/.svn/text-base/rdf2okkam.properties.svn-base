@@ -1,0 +1,5 @@
+inputDatasetFileName = resources/models/rivela.ttl
+outputDatasetFileName =  resources/models/test.ttl
+rulesFileName = resources/rules/mapping.rules
+outputModeleName = resources/models/rivela10.trig
+inputContextFileName = resources/models/context.ttl
